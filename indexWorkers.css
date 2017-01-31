@@ -1,0 +1,135 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 30, 2017, 2:09:59 PM
+    Author     : pupil
+*/
+
+body {
+    background: lightgray;
+    font-size: 20px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#title {
+    text-align: center;
+    padding: 40px;
+    width: 925px;
+}
+
+#left-box {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+#right-box {
+    position: relative;
+    float: right;
+    width: 50%;
+}
+
+.line-input {
+    display: block;
+    text-align: right;
+    padding: 5px;
+    
+}
+
+.line-inputOne {
+    display: block;
+    text-align: right;
+    padding: 5px;
+    width: 590px;
+}
+
+.line-inputTwo {
+    text-align: left;
+    margin-left: 85px;
+}
+
+#input-name {
+    width: 250px;
+    height: 23px;
+}
+
+#input-nameOne {
+    width: 200px;
+    height: 23px;
+    margin-right: 50px;
+}
+
+.preSpace {
+    height: 25px;
+}
+
+.space {
+    height: 45px;
+}
+
+.spaceTwo {
+    height: 20px;
+}
+
+#my-select {
+    width: 265px;
+    height: 27px;
+}
+
+.buttonForStop {
+    display: block;
+    text-align: left;
+    margin-left: 88px;
+}
+
+#specialButton {
+    display: block;
+    margin-left: 85px;
+    padding: 3px;
+    margin-bottom: 5px;
+    width: 185px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#subOne {
+    width: 85px;
+    margin-right: 25px;
+    color: orange;
+}
+
+#subTwo {
+    font-size: 15px;
+}
+
+#my-special {
+    width: 255px;
+    height: 27px;
+}
+
+#exitButton {
+    margin: 15px;
+    width: 70px;
+    color: blue;
+}
+
+#arrowLeft {
+    margin-left: 160px;
+    height: 60px;
+}
+
+#arrowRight {
+    margin-left: 240px;
+    height: 60px;
+}
+
+img {
+    margin-right: 65px;
+}

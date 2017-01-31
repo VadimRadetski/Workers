@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Workers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="resetcss.css" rel="stylesheet" type="text/css"/>
+        <link href="indexWorkers.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            
+            <div id='wrapper-inner'>
+                <form action="identification" method="POST" name="identification_form"/>
+                <input type='submit' id='exitButton' value='Выйти'></div>
+                
+                    <div id='title'> РАБОТНИКИ <br> (третий участок)</div>
+                    
+                        <div id="left-box">
+                            <p id='arrowLeft'>&lt;&lt;</p>
+                            <p class="line-input"> <img src="images/mark.png" width="20" height="20"> Фамилия: <input type="text" id="input-name" name='input_name' value="" placeholder=''></p>
+                            <p class="line-inputOne"> Имя: <input type="text" id="input-nameOne" name='input_name' value="" placeholder=''></p>
+                            <p class="line-inputOne"> Личный код: <input type="text" id="input-nameOne" name='input_name' value="" placeholder=''></p>
+                            <p class="line-input"> <input type='submit' id='subOne' value='Фильтр &gt;&gt;'> Должность:
+
+                            <select name='my_special' id='my-special'>
+                            <option value='1'>Position_1</option>
+                            <option value='2'>Position_2</option>
+                            <option value='3'>Position_3</option>
+                            </select></p>
+
+                            <p class="line-inputOne"> Телефон: <input type="text" id="input-nameOne" name='input_name' value="" placeholder=''></p>
+                            <p class="line-input"> Номер счёта: <input type="text" id="input-name" name='input_name' value="" placeholder=''></p>
+                            <p class="line-input"> Город: <input type="text" id="input-name" name='input_name' value="" placeholder=''></p>
+                            <p class="line-input"> Адрес: <input type="text" id="input-name" name='input_name' value="" placeholder=''></p>
+
+                            <p class='spaceTwo'></p>
+
+                            <p class="line-input"> 
+                            <input type='submit' id='subTwo' value='Добавить'>
+                            <input type='submit' id='subTwo' value='Изменить'>
+                            <input type='submit' id='subTwo' value='Удалить'></p>
+
+                            <p class='spaceTwo'></p>
+
+                            <p class="line-input"> Работники:
+                            <select name='my_select' id='my-select'>
+                            <option value='1'>Worker_1</option> 
+                            <option value='2'>Worker_2</option> 
+                            <option value='3'>Worker_3</option>
+                            </select></p>
+                        </div>
+                    
+                <div id="right-box">
+                            <p id='arrowRight'>&gt;&gt;</p>
+                            <p class="line-inputTwo"><input type='checkbox' id='my-checkbox' name='my_checkbox'> "Результаты работы" (швеи)</p>
+                            <p class="line-inputTwo"><input type='checkbox' id='my-checkbox' name='my_checkbox'> "Заработная плана"(бухгалтер)</p>
+                            <p class="line-inputTwo"><input type='checkbox' id='my-checkbox' name='my_checkbox'> "Ордера"(технолог)</p>
+                            <p class="line-inputTwo"><input type='checkbox' id='my-checkbox' name='my_checkbox'> "Модели и операции"</p>
+                            <p class="line-inputTwo"><input type='checkbox' id='my-checkbox' name='my_checkbox'> "Работники"</p>
+
+                            <p class="preSpace"></p>
+
+                            <p class='space'> &lt;&lt; НОВАЯ</p>
+
+                            <p><input type='submit' id='specialButton' value='Удалить должность'></p>
+                            <p><input type='submit' id='specialButton' value='Доступ работнику'></p>
+                            <p class='buttonForStop'> День "Стоп" до:
+                            
+                            <select name="my_select">
+                            <option value='1'>11</option>
+                            <option value='1'>12</option>
+                            <option value='1'>13</option>
+                            </select></p>
+                </div>
+        </div>
+    </body>
+</html>
